@@ -48,15 +48,15 @@ body {
   border-top: 2px solid var(--border-color);
 }
 
-.slider-title i {
+.section-title i {
   padding-left: 5px;
   font-size: 33px;
 }
 
 /* Filters */
 .filters-container {
-  margin-bottom: 40px;
-  padding-top: 130px;
+  margin-bottom: 30px;
+  padding-top: 80px;
 }
 
 .filters-grid {
