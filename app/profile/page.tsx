@@ -124,7 +124,7 @@ export default function ProfilePage() {
                     </select>
                   </div>
                   <div className="filter-group">
-                    <button className="add-product-btn" onClick={() => (window.location.href = "/add-product")}>
+                    <button className="sup-clear-filters-btn" onClick={() => (window.location.href = "/add-product")}>
                       <i className="fas fa-plus"></i>
                       إضافة منتج
                     </button>
