@@ -60,7 +60,7 @@ export function ChatButtons() {
         <div className="chat-input-area">
           <input type="text" className="chat-input" id="chatInput" placeholder="اكتب رسالتك هنا..." />
           <button className="send-btn" id="sendBtn">
-            <i className="fa fa-paper-plane-o" aria-hidden="true"></i>
+            <i className="fas fa-paper-plane" aria-hidden="true"></i>
           </button>
         </div>
       </div>
@@ -108,7 +108,7 @@ export function ChatButtons() {
         <div className="ai-input-area">
           <input type="text" className="ai-input" id="aiInput" placeholder="اسأل الذكاء الاصطناعي..." />
           <button className="ai-send-btn" id="aiSendBtn">
-            <i className="fa fa-paper-plane-o" aria-hidden="true"></i>
+            <i className="fas fa-paper-plane" aria-hidden="true"></i>
           </button>
         </div>
       </div>

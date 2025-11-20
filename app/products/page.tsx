@@ -33,12 +33,9 @@ export default function ProductsPage() {
       <div
         className="sections-nav"
         style={{
-          
-           paddingTOP: "5rem",
-          marginTOP: "5rem", 
+          paddingTop: "5rem",
+          marginTop: "5rem",
           marginBottom: "0",
-          
-          
         }}
       >
         <h3

@@ -42,7 +42,7 @@ export default function AdminPage() {
         </div>
 
         {/* Admin Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Categories Management */}
           <div className="bg-card/50 backdrop-blur-sm rounded-xl p-6 border border-border shadow-sm">
             <h3 className="text-xl font-extrabold text-primary mb-6 text-center border-b-0 sticky top-0 bg-card/50 z-10 pb-2">
@@ -231,15 +231,35 @@ export default function AdminPage() {
                   </div>
                   <div className="text-xs text-muted-foreground mt-1">إلكترونيات | admin</div>
                 </div>
-                <div className="flex gap-2">
-                  <button className="bg-secondary text-secondary-foreground px-3 py-1 rounded text-xs hover:opacity-90 flex items-center gap-1">
-                    <i className="fas fa-eye"></i> عرض
-                  </button>
-                  <button className="bg-destructive text-destructive-foreground px-3 py-1 rounded text-xs hover:opacity-90 flex items-center gap-1">
-                    <i className="fas fa-trash"></i> حذف
+                <div className="flex flex-col gap-2 items-end">
+                  <div className="flex gap-2">
+                    <button className="bg-secondary text-secondary-foreground px-3 py-1 rounded text-xs hover:opacity-90 flex items-center gap-1">
+                      <i className="fas fa-eye"></i> عرض
+                    </button>
+                    <button className="bg-destructive text-destructive-foreground px-3 py-1 rounded text-xs hover:opacity-90 flex items-center gap-1">
+                      <i className="fas fa-trash"></i> حذف
+                    </button>
+                  </div>
+                  <button className="bg-blue-600 text-white px-3 py-1 rounded text-xs hover:opacity-90 flex items-center gap-1 w-full justify-center">
+                    <i className="fas fa-store"></i> ترحيل للمتجر
                   </button>
                 </div>
               </div>
+            </div>
+          </div>
+
+          {/* Tasks Management */}
+          <div className="bg-card/50 backdrop-blur-sm rounded-xl p-6 border border-border shadow-sm">
+            <h3 className="text-xl font-extrabold text-primary mb-6 text-center flex items-center justify-center gap-2">
+              <i className="fas fa-tasks"></i> إدارة المهام
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <button className="bg-primary text-primary-foreground px-4 py-2 rounded-md text-sm font-medium hover:opacity-90 flex items-center justify-center gap-2">
+                <i className="fas fa-user-plus"></i> ارسال مهمة لعضو
+              </button>
+              <button className="bg-secondary text-secondary-foreground px-4 py-2 rounded-md text-sm font-medium hover:opacity-90 flex items-center justify-center gap-2">
+                <i className="fas fa-clipboard-list"></i> ارسال مهمة الى لوحة المهام
+              </button>
             </div>
           </div>
 
