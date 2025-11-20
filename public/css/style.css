@@ -56,6 +56,7 @@ body {
   background: var(--background-color);
   direction: rtl;
   color: var(--text2-color);
+   padding-bottom:  100px;
 }
 
 /* ===== Accessibility: Skip Link & Focus ===== */
@@ -245,7 +246,6 @@ textarea:focus-visible {
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding-bottom:  70px;
 }
 
 .container {
