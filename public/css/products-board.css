@@ -14,6 +14,7 @@ body {
   position: relative;
   background: var(--background-color);
   direction: rtl;
+   padding-bottom:  100px;
 }
 
 /* Sections */

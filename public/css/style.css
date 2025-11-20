@@ -1,43 +1,7 @@
 @charset "utf-8";
 
 /* ===== CSS Document - TrustGroupArchives - Optimized Version ===== */
-
-/* ===== 1. Font Imports ===== */
-@font-face {
-  font-family: "BalooBhaijaan2";
-  src: url("../fonts/BalooBhaijaan2-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "BalooBhaijaan2";
-  src: url("../fonts/BalooBhaijaan2-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "BalooBhaijaan2";
-  src: url("../fonts/BalooBhaijaan2-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "BalooBhaijaan2";
-  src: url("../fonts/BalooBhaijaan2-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "BalooBhaijaan2";
-  src: url("../fonts/BalooBhaijaan2-ExtraBold.ttf") format("truetype");
-  font-weight: 800;
-  font-style: normal;
-}
-
+ 
 /* ===== 2. CSS Reset & Base Styles ===== */
 * {
   margin: 0;
