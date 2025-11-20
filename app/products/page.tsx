@@ -43,11 +43,11 @@ export default function ProductsPage() {
             fontSize: "1.4rem",
             fontWeight: "bold",
             marginBottom: "0.75rem",
-            textAlign: "right",
+            textAlign: "center",
             color: "var(--primary-color)",
           }}
         >
-          الأقسام
+           「  الاقسام  」   
         </h3>
         <div
           style={{
@@ -265,7 +265,7 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      <Footer />
+     
       <ChatButtons />
     </>
   )
