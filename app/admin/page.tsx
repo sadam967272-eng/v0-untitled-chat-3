@@ -240,7 +240,7 @@ export default function AdminPage() {
                       <i className="fas fa-trash"></i> حذف
                     </button>
                   </div>
-                  <button className="bg-blue-600 text-white px-3 py-1 rounded text-xs hover:opacity-90 flex items-center gap-1 w-full justify-center">
+                  <button className="bg-secondary text-secondary-foreground px-3 py-1 rounded text-xs hover:opacity-90 flex items-center gap-1">
                     <i className="fas fa-store"></i> ترحيل للمتجر
                   </button>
                 </div>
@@ -254,10 +254,10 @@ export default function AdminPage() {
               <i className="fas fa-tasks"></i> إدارة المهام
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              <button className="bg-primary text-primary-foreground px-4 py-2 rounded-md text-sm font-medium hover:opacity-90 flex items-center justify-center gap-2">
+              <button className="admin-btn info btn-xsmall">
                 <i className="fas fa-user-plus"></i> ارسال مهمة لعضو
               </button>
-              <button className="bg-secondary text-secondary-foreground px-4 py-2 rounded-md text-sm font-medium hover:opacity-90 flex items-center justify-center gap-2">
+              <button className="admin-btn info btn-xsmall">
                 <i className="fas fa-clipboard-list"></i> ارسال مهمة الى لوحة المهام
               </button>
             </div>
@@ -385,7 +385,7 @@ export default function AdminPage() {
         </div>
       </main>
 
-      <Footer />
+     
     </div>
   )
 }
