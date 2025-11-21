@@ -186,7 +186,7 @@ export default function ClientPage({ params }: { params: { id: string } }) {
         </div>
       </div>
 
-      <Footer />
+      
       <ChatButtons />
     </>
   )
