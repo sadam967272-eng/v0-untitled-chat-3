@@ -688,7 +688,7 @@ export default function AddProductPage() {
       </div>
 
       <ChatButtons />
-      <Footer />
+       
     </>
   )
 }
