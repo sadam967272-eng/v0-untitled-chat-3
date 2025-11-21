@@ -239,7 +239,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
         </div>
       </div>
 
-      <Footer />
+        
       <ChatButtons />
     </>
   )
