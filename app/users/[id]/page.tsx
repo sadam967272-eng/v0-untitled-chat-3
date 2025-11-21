@@ -237,7 +237,7 @@ export default function UserPage({ params }: { params: { id: string } }) {
         </div>
       </main>
 
-      <Footer />
+      
       <ChatButtons />
     </>
   )
