@@ -173,7 +173,7 @@ export default function SuppliersPage() {
         </div>
       </section>
 
-      <Footer />
+      
       <ChatButtons />
     </>
   )
