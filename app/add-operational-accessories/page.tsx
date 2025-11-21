@@ -392,7 +392,7 @@ export default function AddOperationalAccessoriesPage() {
       </div>
 
       <ChatButtons />
-      <Footer />
+   
     </>
   )
 }
