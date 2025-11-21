@@ -365,7 +365,7 @@ export default function AddSparePartPage() {
       </div>
 
       <ChatButtons />
-      <Footer />
+      
     </>
   )
 }
