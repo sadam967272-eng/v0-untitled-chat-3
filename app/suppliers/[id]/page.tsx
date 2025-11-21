@@ -391,7 +391,7 @@ export default function SupplierPage({ params }: { params: { id: string } }) {
         </Link>
       </div>
 
-      <Footer />
+       
       <ChatButtons />
     </>
   )
