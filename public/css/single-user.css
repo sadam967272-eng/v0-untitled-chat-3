@@ -71,7 +71,7 @@ color: var(--text-color);
 margin-top:13px;
 font-size: 24px;
 font-weight: 300;
-font-family: "BalooBhaijaan2", sans-serif;
+
 padding-right: 5px;
 }
 
@@ -139,7 +139,6 @@ font-weight: 500;
 font-size:19px;
 color: var(--text-color);
 font-weight:850;
-font-family: "BalooBhaijaan2", sans-serif;
 margin-top:5px;
 }
 

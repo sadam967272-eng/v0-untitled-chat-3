@@ -78,7 +78,6 @@
     margin-bottom: 5px;
     font-size: 22px;
 	font-weight: 600;
-	font-family: "BalooBhaijaan2", sans-serif;
 }
 
 .profile-user-details i {   
@@ -107,7 +106,6 @@
 .stat-label {
     color: var(--text2-color);
     font-size: 17px;
-	font-family: "BalooBhaijaan2", sans-serif;
 	margin-top: 5px;
 }
 .stat-label i{
@@ -119,7 +117,6 @@
 .stat-label1 {
     color: var(--text2-color);
     font-size: 17px;
-	font-family: "BalooBhaijaan2", sans-serif;
 	margin-top: 5px;
 }
 .stat-label1 i{
@@ -534,7 +531,6 @@
     padding: 6px;
     border-radius: 8px;
     gap: 5px;
-	font-family: "BalooBhaijaan2", sans-serif;
 }
 
 .price-item {

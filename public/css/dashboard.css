@@ -508,7 +508,6 @@
     font-weight: bold;
     font-size: 15px;
     color: var(--text3-color);
-    font-family: "BalooBhaijaan2", sans-serif;
 }
 
 .coverflow-item.active {
@@ -761,7 +760,6 @@
     font-size: 29px;
     font-weight: bold;
     color: var(--text3-color);
-    font-family: "BalooBhaijaan2", sans-serif;
 }
 
 .Data-Snapshot-label {
