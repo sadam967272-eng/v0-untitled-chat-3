@@ -218,7 +218,7 @@ export default function AddClientPage() {
       </div>
 
       <ChatButtons />
-      <Footer />
+      
     </>
   )
 }
