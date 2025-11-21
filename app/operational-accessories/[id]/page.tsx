@@ -201,7 +201,7 @@ export default function OperationalAccessoryPage({ params }: { params: { id: str
         </div>
       </div>
 
-      <Footer />
+     
       <ChatButtons />
     </>
   )
