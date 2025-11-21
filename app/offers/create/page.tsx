@@ -445,7 +445,7 @@ export default function CreateOfferPage() {
       </div>
 
       <ChatButtons />
-      <Footer />
+   
     </>
   )
 }
