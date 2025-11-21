@@ -200,7 +200,7 @@ export default function AddUserPage() {
         </div>
       </main>
 
-      <Footer />
+     
     </div>
   )
 }
