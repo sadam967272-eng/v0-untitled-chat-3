@@ -201,7 +201,7 @@ export default function SparePartPage({ params }: { params: { id: string } }) {
         </div>
       </div>
 
-      <Footer />
+       
       <ChatButtons />
     </>
   )
